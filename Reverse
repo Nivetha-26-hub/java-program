@@ -1,0 +1,19 @@
+class reverse {
+    public static void main(String []args)
+    {
+        int num=4356;
+        int rev=0;
+        while(num>0)
+        {
+            int d=num%10;
+            rev=rev*10+d;
+            rev=d;
+        if(num==rev) 
+            system.out.println("palindrome")
+        else
+            system.out.println("not palindrome")
+        }
+
+
+    }
+}
